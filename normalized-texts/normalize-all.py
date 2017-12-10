@@ -17,7 +17,7 @@ def tokenize_ru_and_normalize(file_text):
     tokens = stem.lemmatize(file_text)
 
     print('Zero is done')
-    
+
     # let's delete punctuation symbols
     tokens = [i for i in tokens if (i not in string.punctuation)]
 
